@@ -4,6 +4,7 @@ var PERSONASCHEMA = {
 	ci:String,
 	edad:Number,
 	fechaRegistro:Date,
+  //esito seria
 }
 
 const PERSONA = mongoose.model("persona", PERSONASCHEMA);
